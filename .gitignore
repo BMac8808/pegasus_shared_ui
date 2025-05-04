@@ -1,0 +1,66 @@
+
+# Archives and compressed files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# 3D model files
+*.stl
+*.gcode
+*.obj
+*.3mf
+
+# Large images and media (optional, if not versioning)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.mp4
+*.mov
+
+# Asset directories
+public/stls/
+public/downloads/
+assets/
+node_modules/
+dist/
+.env*
+/scripts/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.tmp
